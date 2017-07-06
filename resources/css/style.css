@@ -32,8 +32,85 @@ nav span  {
   padding: 20px 10px;
 }
 
+a  {
+  color: seashell;
+}
+
+h2, h3, h4  {
+  padding: 10px;
+  margin: 0;
+}
+
+footer  {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.main {
+  width: 1200px;
+  opacity: 0.9;
+  margin: auto;
+}
+
 .flex-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+#mission  {
+  height: 700px;
+  background-image: url("../images/img-mission-background.jpg");
+  padding-top: 70px;
+}
+
+#mission .content {
+  background-color: black;
+  width: 100%;
+  margin: auto;
+}
+
+#featuredtea  {
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+#locations  {
+  background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+  padding-top: 70px;
+}
+
+#contacts {
+  height: 200px;
+}
+
+.item {
+  padding: 5px;
+}
+
+.item img  {
+  height: 200px;
+  margin: 10px;
+  display: block;
+}
+
+.item span  {
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.location {
+  opacity: 1;
+  background-color: black;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  margin: 5px 20px;
 }
